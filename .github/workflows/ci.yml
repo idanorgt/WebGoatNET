@@ -20,9 +20,6 @@ jobs:
       - name: Say hello
         run: echo "Hello from GitHub Actions!"
 
-      - name: Run app.py
-        run: python app.py  # executes your script [web:16][web:21]
-
       - name: Checkmarx One CLI Action
         uses: checkmarx/ast-github-action@main #Github Action version
         with:
